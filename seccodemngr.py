@@ -117,7 +117,7 @@ def initiate_game(update, context):
 	update.message.reply_text ("Code Generated!  Now, Guess!")
 	
 
-updater = Updater (token = "1754277356:AAF4rPQTAYACkVKCJIHr231zOyOFQjwfDrU")
+updater = Updater (token = "enter your token of the tele bot")
 logging.basicConfig (
 	format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s", level = logging.INFO
 )
